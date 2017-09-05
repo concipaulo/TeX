@@ -22,7 +22,7 @@ os designers, e o autor do documento se preocupar com o conteúdo do texto.
 ---
 ## Vantagens
 
-Prático, rápido e extensível.
+Prático, rápido e extensível
 
 ## Fontes
 
