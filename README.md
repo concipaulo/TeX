@@ -4,12 +4,12 @@
 
 LaTex que é pronunciado _Lah-tech_ ou _Lay-tech_, é um linguagem para escrita
 e edição de texto, usualmente longos textos científicos, porém pode ser usado
-basicamente para qualquer texto. 
+basicamente para qualquer texto.
 
 LaTeX é baseado na ideia de que é muito melhor deixar o design do documento com
-os designers, e o autor do documento se preocupar com o conteúdo do texto. 
+os designers, e o autor do documento se preocupar com o conteúdo do texto.
 
-#### Características do LaTeX 
+#### Características do LaTeX
 * Escrever artigos cietíficos, livros, relatórios técnicos, apresentação de
   slides;
 * Facilidade em controlar grandes documentos em seções, _cross-references_,
@@ -17,9 +17,14 @@ os designers, e o autor do documento se preocupar com o conteúdo do texto.
 * Escrever equações matemáticas complexas facilmente;
 * Geração automática de referências, bibliográfia e index.
 * Escrita multilíngue;
-* Usa PostScrip e Metafont fontes. 
+* Usa PostScrip e Metafont fontes.
 
-## Fontes 
+---
+## Vantagens
+
+Prático, rápido e extensível.
+
+## Fontes
 
 [LaTeX org](https://www.latex-project.org/about/)
 
