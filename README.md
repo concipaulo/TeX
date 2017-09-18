@@ -32,7 +32,7 @@ após o download, sua instalação é bem direta e simples.
 
 Link para download: [TEXMAKER](http://www.xm1math.net/texmaker/download.html)
 
-#### Para gerenciamento de Referências
+#### Para Gerenciamento de Referências
 
 Para que seja possível automatizar o processo de referências, é recomendado a
 utilização do __Mendeley__, sendo este capaz de organizar os arquivos
@@ -40,12 +40,27 @@ existentes em seu computador.
 
 Link para download: [Mendeley](https://www.mendeley.com/download-mendeley-desktop)
 
-> Será necessário criar uma conta, para que está tenha um backup de todas os
-> seus arquivos.
+> Será __necessário__ criar uma conta, para que esta faça backup de todas as suas
+> referências e seja possível logar no programa.
+
+---
+## Materiais para o minicurso
+
+Link para modelo canônico da ABNT
+[Modelo ABNT](https://github.com/abntex/abntex2/wiki/Download)
+> Fazer download do arquivo compactado __abntex2-modelos-1.9.6.zip__ 
+
+Este modelo será utilizado como ponto de partida para a formatação do trabalho
+acadêmico durante o minicurso. 
+
 ---
 ## Vantagens
 
 Prático, rápido e extensível.
+
+## Contato
+
+[email](pauloagconci@gmail.com)
 
 ## Fontes
 
