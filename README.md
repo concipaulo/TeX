@@ -60,7 +60,7 @@ Prático, rápido e extensível.
 
 ## Contato
 
-[email](pauloagconci@gmail.com)
+Email: pauloagconci@gmail.com
 
 ## Fontes
 
