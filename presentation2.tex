@@ -1,0 +1,129 @@
+\documentclass[14pt, aspectratio=169]{beamer}
+%
+\setbeamertemplate{navigation symbols}{}
+% \usepackage{beamerthemeshadow}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\usetheme[progressbar=frametitle]{metropolis}
+% \usetheme[]{Warsaw}
+\definecolor{cadmiumorange}{rgb}{0.93, 0.53, 0.18}
+\setbeamertemplate{frame numbering}[fraction]
+\useoutertheme{metropolis}
+\useinnertheme{metropolis}
+\usefonttheme{metropolis}
+% \usecolortheme{spruce}
+% \usecolortheme{beetle}
+\usecolortheme{seahorse}
+\setbeamercovered{transparent=5}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+\addtobeamertemplate{block begin}{\setlength{\textwidth}{0.7\textwidth}}{}
+
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{multido}
+\usepackage[most]{tcolorbox}
+\usepackage[alf]{abntex2cite}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\hypersetup{pdfpagemode=FullScreen}
+
+% Information
+\title{\textit{Verificação e Validação Numérica do Algoritmo GMRES
+  na Solução de Problemas de Transferência de Calor Utilizando Método de
+  Diferenças Finitas}}
+% \subtitle{Autor: Paulo Conci}
+\author{Autor: Paulo G. Conci \\ Orientador: Francisco A. A. Gomes}
+\institute{UTFPR}
+\date{22 de Novembro de 2017}
+\setbeamercolor{title}{parent=structure,fg=gray,bg=yellow}
+% \setbeamercolor{subtitle}{parent=structure,fg=cyan,bg=yellow}
+% \setbeamercolor{author}{parent=structure,fg=cyan,bg=yellow}
+
+%===================================================================
+\begin{document}
+
+% Title page
+\begin{frame}[plain]
+  \maketitle
+\end{frame}
+
+\begin{frame}[plain]{Organização}
+    \tableofcontents
+\end{frame} 
+
+\section{Introdução}
+\begin{frame}{Introdução}
+\begin{itemize}
+\item Transferência de Calor \\[10pt]
+\item Método de Diferenças Finitas (FDM) \\[10pt]
+\item Sistemas Lineares Altamente Esparsos
+\end{itemize}
+\end{frame}
+
+\section{Procedimento Computacional} 
+\begin{frame}{Procedimento Computacional}
+\begin{itemize}
+    \item Fatoração LU Incompleta (ILU)\\[10pt]
+    \item Relaxação sucessiva
+        \begin{itemize}
+        \item Gauss-Siedel
+        \end{itemize}
+    \item Subespaço de Krylov
+        \begin{itemize}
+        \item \textit{Generalized Minimal Residual} (GMRES)\\[10pt]
+        \end{itemize}
+\end{itemize}
+\end{frame}
+
+\section{Verificação e Validação (V\&V)}
+
+\begin{frame}{Verificação}
+    \justifying
+     O processo de determinar que um modelo ou simulação implementada e
+    seus dados associados representam de forma precisa a descrição e especificações do
+    desenvolvedor~\cite{dodi5000.61},~\cite{aiaa1998}.
+
+    Verificação de código é distinta de verificação de solução e deve ser feita a
+    \textit{priori}, mesmo que ambas utilizam procedimento de refino de
+    malha~\cite{asme2009}.
+\end{frame}
+
+\begin{frame}{Validação}
+    \justifying
+     O processo de determinar em que grau o modelo, simulação e seus dados
+     associados são uma representação precisa do mundo real sob a perspectiva
+     dos fenômenos a serem
+     estudados~\cite{aiaa1998},~\cite{dodi5000.61},~\cite{nasa7009a}.
+\end{frame}
+
+\begin{frame}{Verificação e Validação (V\&V)}
+    \begin{itemize}
+         \item Verificação: Estamos resolvendo as equações de forma correta? 
+         \item Validação: Estamos resolvendo as equações certas?
+    \end{itemize}
+\end{frame}
+
+\section{Resultado Esperado}
+
+\begin{frame}{Resultado Esperado}
+    \justifying
+    Tem-se como objetivo esperado a obtenção de um código capaz de resolver
+    problemas de transferência de calor, tanto estacionário quanto transiente,
+    respeitando os conceitos de verificação e validação apresentados. 
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Referências}
+    \bibliography{bibfile.bib}
+\end{frame}
+
+\begin{frame}[standout]
+Dúvidas?
+\end{frame}
+
+\begin{frame}[standout]
+Obrigado!
+\end{frame}
+
+\end{document}
